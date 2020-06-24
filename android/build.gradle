@@ -45,5 +45,9 @@ repositories {
 }
 
 dependencies {
-  implementation ('org.jitsi.react:jitsi-meet-sdk:2.9.0') { exclude group: 'com.facebook', module: 'hermes' transitive = true }
+  implementation ('org.jitsi.react:jitsi-meet-sdk:2.9.0') 
+  { 
+    exclude group: 'com.facebook', module: 'hermes' 
+    transitive = true 
+  }
 }
